@@ -1,0 +1,10 @@
+C:\projetos\c-sharp-certification\certificacao-csharp-pt1\bin\Debug\certificacao-csharp-roteiro.exe.config
+C:\projetos\c-sharp-certification\certificacao-csharp-pt1\bin\Debug\certificacao-csharp-roteiro.exe
+C:\projetos\c-sharp-certification\certificacao-csharp-pt1\bin\Debug\certificacao-csharp-roteiro.pdb
+C:\projetos\c-sharp-certification\certificacao-csharp-pt1\bin\Debug\Newtonsoft.Json.dll
+C:\projetos\c-sharp-certification\certificacao-csharp-pt1\bin\Debug\Newtonsoft.Json.xml
+C:\projetos\c-sharp-certification\certificacao-csharp-pt1\obj\Debug\certificacao-csharp-pt1.csprojAssemblyReference.cache
+C:\projetos\c-sharp-certification\certificacao-csharp-pt1\obj\Debug\certificacao-csharp-pt1.csproj.CoreCompileInputs.cache
+C:\projetos\c-sharp-certification\certificacao-csharp-pt1\obj\Debug\certificacao-csharp-pt1.csproj.CopyComplete
+C:\projetos\c-sharp-certification\certificacao-csharp-pt1\obj\Debug\certificacao-csharp-roteiro.exe
+C:\projetos\c-sharp-certification\certificacao-csharp-pt1\obj\Debug\certificacao-csharp-roteiro.pdb
