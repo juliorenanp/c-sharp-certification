@@ -16,6 +16,15 @@ namespace certificacao_csharp_roteiro
             int idade2 = idade;
             Console.WriteLine($"idade: {idade}");
             Console.WriteLine($"idade2: {idade2}");
+
+
+            // All variables available
+            // type variableName = value;
+            int inteiro = 10;
+            double preco = 19.99D;
+            char caracter = 'J';
+            string ronanld = "string gigante";
+            bool boleana = true;
         }
     }
 }
