@@ -14,6 +14,9 @@ namespace certificacao_csharp_roteiro
         }
     }
 
+
+    delegate double MetodoMultiplicacao(double input);
+
     class Calculadora
     {
         static double Duplicar(double input)
@@ -34,6 +37,10 @@ namespace certificacao_csharp_roteiro
 
             //Executa diretamente o método
             Console.WriteLine($"Triplicar(7.5): {Triplicar(7.5)}");
+
+            // Delegamos o métodoMultiplicacao a executar o método duplicar
+            MetodoMultiplicacao metodoMultiplicacao = Duplicar;
+            Console.WriteLine(metodoMultiplicacao(7));
         }
     }
 }
