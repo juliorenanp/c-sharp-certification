@@ -13,7 +13,7 @@ namespace certificacao_csharp_roteiro
         {
             IAulaItem itemSelecionado;
             menuItems = GetMenuItems();
-
+            
             while (true)
             {
                 ImprimirMenuItems(menuItems);
@@ -58,7 +58,7 @@ namespace certificacao_csharp_roteiro
         {
             int i = 1;
             Console.WriteLine("SELECIONE UMA OPÇÃO");
-            Console.WriteLine("===================");
+            Console.WriteLine("========================");
             Console.WriteLine("0 - Sair");
             foreach (var menuItem in menuItems)
             {
