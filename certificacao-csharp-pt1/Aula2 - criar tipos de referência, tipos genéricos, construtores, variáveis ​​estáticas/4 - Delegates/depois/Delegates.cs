@@ -52,6 +52,12 @@ namespace certificacao_csharp_roteiro
             double quadrado = metodoQuadrado(5);
             Console.WriteLine(quadrado);
 
+
+            // instancia um delegado com uma expressão lambda
+            MetodoMultiplicacao metodoCubo = input => input * input * input;
+            double cubo = metodoCubo(3.34);
+            Console.WriteLine(cubo);
+
         }
     }
 }
