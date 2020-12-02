@@ -10,10 +10,23 @@ namespace certificacao_csharp_roteiro
     {
         public void Executar()
         {
+            // Posso atribuir a variável eletro1 a qualquer objeto que implemente esta Interface
+            IEletrodomestico eletro1 = new Televisao();
+            eletro1.Ligar();
+            eletro1 = new Abajur();
+
         }
     }
 
-    class Televisao
+    interface IEletrodomestico
+    {
+        void Desligar();
+
+        void Ligar();
+    }
+
+
+    class Televisao : IEletrodomestico
     {
         public void Desligar()
         {
@@ -24,7 +37,7 @@ namespace certificacao_csharp_roteiro
         }
     }
 
-    class Abajur
+    class Abajur : IEletrodomestico
     {
         public double PotenciaDaLampada { get; set; }
 
@@ -37,7 +50,7 @@ namespace certificacao_csharp_roteiro
         }
     }
 
-    class Lanterna
+    class Lanterna : IEletrodomestico
     {
         public double PotenciaDaLampada { get; set; }
 
@@ -50,7 +63,7 @@ namespace certificacao_csharp_roteiro
         }
     }
 
-    class Radio
+    class Radio : IEletrodomestico
     {
         public void Desligar()
         {
