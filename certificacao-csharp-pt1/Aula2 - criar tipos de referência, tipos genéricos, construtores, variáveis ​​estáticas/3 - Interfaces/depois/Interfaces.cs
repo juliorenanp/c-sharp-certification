@@ -25,6 +25,12 @@ namespace certificacao_csharp_roteiro
         void Ligar();
     }
 
+    interface IIluminacao
+    {
+        double PotenciaDaLampada { get; set; }
+    }
+
+    
 
     class Televisao : IEletrodomestico
     {
@@ -37,7 +43,7 @@ namespace certificacao_csharp_roteiro
         }
     }
 
-    class Abajur : IEletrodomestico
+    class Abajur : IEletrodomestico, IIluminacao
     {
         public double PotenciaDaLampada { get; set; }
 
@@ -50,7 +56,7 @@ namespace certificacao_csharp_roteiro
         }
     }
 
-    class Lanterna : IEletrodomestico
+    class Lanterna : IEletrodomestico, IIluminacao
     {
         public double PotenciaDaLampada { get; set; }
 
