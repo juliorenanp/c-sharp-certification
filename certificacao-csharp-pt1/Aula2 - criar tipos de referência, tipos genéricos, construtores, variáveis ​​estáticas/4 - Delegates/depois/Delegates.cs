@@ -41,6 +41,17 @@ namespace certificacao_csharp_roteiro
             // Delegamos o métodoMultiplicacao a executar o método duplicar
             MetodoMultiplicacao metodoMultiplicacao = Duplicar;
             Console.WriteLine(metodoMultiplicacao(7));
+
+
+            // instancia um delegado com um método anônimo
+            MetodoMultiplicacao metodoQuadrado = delegate (double input)
+            {
+                return input * input;
+            };
+
+            double quadrado = metodoQuadrado(5);
+            Console.WriteLine(quadrado);
+
         }
     }
 }
