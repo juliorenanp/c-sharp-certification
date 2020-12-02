@@ -29,7 +29,14 @@ namespace certificacao_csharp_roteiro
         }
     }
 
-    struct PosicaoGps
+
+    interface IGPS
+    {
+        bool EstaNoHemisFerioNorte();
+    }
+
+
+    struct PosicaoGps : IGPS
     {
         public double Latitude;
         public double Longitude;
@@ -38,6 +45,16 @@ namespace certificacao_csharp_roteiro
         {
             Latitude = latitude;
             Longitude = longitude;
+        }
+
+        public bool EstaNoHemisFerioNorte()
+        {
+            return Latitude > 0;
+        }
+
+        public override string ToString()
+        {
+            return $"Latitude:{Latitude}, Longitude {Longitude} ";
         }
     }
 }
