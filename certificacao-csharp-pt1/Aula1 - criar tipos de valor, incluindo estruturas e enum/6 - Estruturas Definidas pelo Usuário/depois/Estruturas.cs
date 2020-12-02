@@ -35,7 +35,9 @@ namespace certificacao_csharp_roteiro
         bool EstaNoHemisFerioNorte();
     }
 
-
+    // O que diferencia uma estrutura de uma classe? Uma variavel do tipo estrutura é um tipo de valor e não uma referência.
+    // Se copiarmos a estrutura ambas estarão diferentes. No caso da classe os valores se manteriam os mesmos.
+    // Utilizada para coisas simples, como uma cor ou etc.
     struct PosicaoGps : IGPS
     {
         public double Latitude;
