@@ -12,5 +12,13 @@ namespace certificacao_csharp_roteiro
         {
 
         }
+
+     // pode ser vista dentro de mesmo assembly, neste caso a certificacao-charp-pt1
+     internal class Humano
+        {
+            public int Idade { get; set; }
+            public string Nome { get; set; }
+            public int Peso { get; set; }
+        }
     }
 }
