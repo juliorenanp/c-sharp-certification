@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace certificacao_csharp_roteiro
 {
-    class Classes : IAulaItem
+    public class Classes : IAulaItem
     {
         public void Executar()
         {
+
         }
     }
 }

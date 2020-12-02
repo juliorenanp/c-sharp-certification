@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace certificacao_csharp_roteiro
 {
-    class TiposDeReferencia : IAulaItem
+   public class TiposDeReferencia : IAulaItem
     {
         public void Executar()
         {
+
         }
     }
 }
