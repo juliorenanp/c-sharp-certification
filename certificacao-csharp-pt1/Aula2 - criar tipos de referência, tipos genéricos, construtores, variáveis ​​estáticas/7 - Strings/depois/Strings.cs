@@ -12,6 +12,10 @@ namespace certificacao_csharp_roteiro
         {
             string a = "bom dia";
             string b = "b";
+            string eva01 = "evangelion";
+            // Pega o indice 1 da string, como se fosse um array
+            var caractere = eva01[1];
+
         }
     }
 }
