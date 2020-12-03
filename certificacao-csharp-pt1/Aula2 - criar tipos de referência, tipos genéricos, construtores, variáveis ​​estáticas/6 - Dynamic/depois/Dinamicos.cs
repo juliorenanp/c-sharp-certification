@@ -13,11 +13,14 @@ namespace certificacao_csharp_roteiro
             object objeto = 1;
             //objeto = objeto + 3;
 
+
+            // Operações que contêm expressões dynamic não são resolvidas ou verificadas pelo compilador.
+            // O tipo dynamic existe somente em tempo de compilação e não em tempo de execução.
+
             dynamic dinamico = 1;
             dinamico = dinamico + 3;
 
             Console.WriteLine(dinamico);
-
         }
     }
 }
