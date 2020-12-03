@@ -13,7 +13,7 @@ namespace certificacao_csharp_roteiro
         {
             IAulaItem itemSelecionado;
             menuItems = GetMenuItems();
-            
+
             while (true)
             {
                 ImprimirMenuItems(menuItems);
@@ -58,7 +58,7 @@ namespace certificacao_csharp_roteiro
         {
             int i = 1;
             Console.WriteLine("SELECIONE UMA OPÇÃO");
-            Console.WriteLine("========================");
+            Console.WriteLine("===================");
             Console.WriteLine("0 - Sair");
             foreach (var menuItem in menuItems)
             {
@@ -84,11 +84,11 @@ namespace certificacao_csharp_roteiro
                 new MenuItem("Objetos", typeof(Objetos)),
                 new MenuItem("Dinâmicos", typeof(Dinamicos)),
                 new MenuItem("Strings", typeof(Strings)),
-                //new MenuItem("Metodos", typeof(Metodos)),
-                //new MenuItem("Parâmetros Nomeados", typeof(ParametrosNomeados)),
-                //new MenuItem("Parâmetros Opcionais", typeof(ParametrosOpcionais)),
-                //new MenuItem("Métodos de Extensão", typeof(MetodosDeExtensao)),
-                //new MenuItem("Propriedades Indexadas", typeof(PropriedadesIndexadas)),
+                new MenuItem("Metodos", typeof(Metodos)),
+                new MenuItem("Parâmetros Nomeados", typeof(ParametrosNomeados)),
+                new MenuItem("Parâmetros Opcionais", typeof(ParametrosOpcionais)),
+                new MenuItem("Métodos de Extensão", typeof(MetodosDeExtensao)),
+                new MenuItem("Propriedades Indexadas", typeof(PropriedadesIndexadas)),
                 //new MenuItem("Sobrecargas", typeof(Sobrecargas)),
                 //new MenuItem("Métodos Substituidos", typeof(MetodosSubstituidos)),
                 //new MenuItem("Boxing", typeof(Boxing)),
