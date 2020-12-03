@@ -8,9 +8,16 @@ namespace certificacao_csharp_roteiro
 {
     class Metodos : IAulaItem
     {
+        // Tipos de modificadores:
+        // public - Utilizado em qualquer lugar... Sem restrição nenhuma.
+        // Internal - Pode ser utilizado em mesmo assembly/projeto
+        // protected (+ internal) - 
+        // private (+internal) - Só pode ser utilizados dentro da Classe.
+
         public void Executar()
         {
             Retangulo retangulo = new Retangulo(12, 10);
+            Console.WriteLine(retangulo.GetArea());
         }
     }
 
@@ -27,7 +34,7 @@ namespace certificacao_csharp_roteiro
             Console.WriteLine($"altura: {altura}, largura: {largura}");
         }
 
-        public double GetArea()
+        internal double GetArea()
         {
             return Altura * Largura;
         }
